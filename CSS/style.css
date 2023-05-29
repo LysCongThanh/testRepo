@@ -1,0 +1,12 @@
+.header{
+    height: 80px;
+    background-color: rgb(123, 153, 93);
+}
+
+.footr {
+    height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 153, 93);
+}

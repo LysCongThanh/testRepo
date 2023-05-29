@@ -1,0 +1,141 @@
+:root{
+    --clr-price: rgb(255, 72, 0);
+    --bg-clr: rgb(230, 227, 221);
+}
+
+.price-product{
+    color: var(--clr-price);
+}
+
+.navbar {
+    background-color: var(--bg-clr) !important;
+}
+
+.footer {
+    padding: 1.5rem 0;
+    background-color: var(--bg-clr);
+}
+
+/* login-page */
+
+.form {
+    background-color: var(--bg-clr);
+}
+
+@media screen and (max-width: 578px) {
+    .banner__content{
+        margin: 2rem 0;
+        align-items: center !important;
+    }
+}
+
+.error__input {
+    border: 2px solid red !important;
+    animation: shake 0.1s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.error__input::placeholder {
+    color: red;
+}
+
+.error__message{
+    color: #C65A46;
+}
+
+#form {
+    width: 40%;
+    padding: 2.5rem;
+    border-radius: 5px;
+    background-color:  #371B1D;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label{
+    color: white;
+}
+
+.form-group_radio label{
+    color: white;
+}
+
+.form-group_radio {
+    color: white;
+}
+
+.form-group_radio input{
+    margin-left: .5rem;
+}
+
+.form-group_checkbox label {
+    color: white;
+}
+
+.form-group input,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.form-group_flex{
+    margin: .5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline;
+    margin-right: 10px;
+}
+
+.form-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #CF7D7D;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    cursor: pointer;
+}
